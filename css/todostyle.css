@@ -1,0 +1,10 @@
+.container{
+	width:500px;
+	
+}
+input[type="text"]{
+	width:370px;
+}
+ul li {
+	text-align:left;
+}
