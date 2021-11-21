@@ -1,29 +1,32 @@
 <html>
-<head><title>Todo List</title>
-<link rel="stylesheet" href="css/all.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/todostyle.css">
+<head>
+  <title>Todo List</title>
+  <link rel="stylesheet" href="css/all.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/todostyle.css">
 </head>
 <center>
 <body>
 <div class="container">
-<h1>Add Todos</h1>
-<form id="form" class="form-group">
-<div class="content">
-<div class="row">
-<div class="col-md-8">
-<input class="form-control" type="text" name="txt" id="name">
-<input type="hidden" id="saveindex"></div>
-<div class="col-md-4">
-<button type="submit" name="sbt" id="addbtn" class="btn btn-primary float-right">Add Item</button>
-<button type="button" name="sbt" id="savebtn" style="display:none" class="btn btn-primary float-right" onClick="window.location.reload();">Save Item</button>
-</div>
-</div>
-</div>
-</form>
-<ul class="list-group" style="margin-top:10px"></ul>
-</div>
-<script src="js/todojs.js"></script>
-<script src="js/jquery.js"></script>
-</body>
+  <h1>Add Todos</h1>
+  <form id="form" class="form-group">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-8">
+          <input class="form-control" type="text" name="txt" id="name">
+          <input type="hidden" id="saveindex">
+        </div>
+        <div class="col-md-4">
+          <button type="submit" name="sbt" id="addbtn" class="btn btn-primary float-right">Add Item</button>
+          <button type="button" name="sbt" id="savebtn" style="display:none" class="btn btn-primary float-right" onClick="window.location.reload();">Save Item</button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <ul class="list-group" style="margin-top:10px"></ul>
+  </div>
+  <script src="js/todojs.js"></script>
+  <script src="js/jquery.js"></script>
+  </body>
+  <center>
 </html>
